@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EventO!</string>
+    <string name="title_activity_demo_bottom_sheet">DemoBottomSheet</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_demo_drawer">DemoDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="points_100">POINTS: <u>25</u></string>
+
+    <string-array name="Semester">
+    <item>Select</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+
+</string-array>
+
+    <string-array name="event_cat">
+        <item>Select</item>
+        <item>Technical</item>
+        <item>Non-Technical</item>
+        <item>Sports</item>
+        <item>Clutural</item>
+
+    </string-array>
+
+    <string-array name="University">
+        <item>GTU</item>
+        <item>Parul University, Vadodara</item>
+        <item>MS University, Vadodara</item>
+
+
+    </string-array>
+
+    <string-array name="Department">
+        <item>Select</item>
+        <item>IT</item>
+        <item>Computer</item>
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dec">Lorem ipsum dolor sit amet, fermentum auctor ac pellentesque, praesent a turpis, sed habitasse mauris lacus nec proin dictumst, enim rhoncus natoque pariatur turpis vestibulum. Tempus sed molestie bibendum libero tellus ac. Duis turpis tortor phasellus donec dolor, montes eget pellentesque nulla sit ultrices, nunc itaque at ac at justo sed, mauris ipsum in gravida, quam vel faucibus maecenas feugiat laoreet quis. Ornare eros, sed ut urna est lectus, natoque libero id tortor fermentum, vitae fermentum. Proin eros semper dolor dui tempor, lorem vehicula velit id, scelerisque eleifend vestibulum et, justo neque quis ante ligula sapien, suspendisse velit id fermentum id sit donec. Mi sapien amet dui metus mauris, vel sed elementum, volutpat wisi est tempor, magna porttitor ac, ligula dictum hendrerit sed praesent a eget. Purus aliquam, lorem tincidunt diam velit et, convallis vel placerat eros penatibus dis, magna non fusce magna etiam nascetur ligula. Vehicula ipsum pulvinar, nam rhoncus. Nulla quisque posuere platea nunc suscipit ut, arcu dictum fermentum eget proin, erat massa ut nec, nec sit eu fusce, iaculis gravida eget. Eget mauris convallis dui odio, justo ut ut, sed malesuada aliquam ac torquent fusce neque. Lectus augue tempor, et fringilla praesent suspendisse vitae accumsan arcu, justo ipsum ullamcorper cras congue.</string>
+</resources>

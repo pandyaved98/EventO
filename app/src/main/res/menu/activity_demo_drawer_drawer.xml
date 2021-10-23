@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_circle"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Event" />
+
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calender" />
+
+    <item
+        android:id="@+id/nav_partner"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notification" />
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:icon="@drawable/ic_email"-->
+<!--        android:title="Message" />-->
+
+
+        <group android:checkableBehavior="none"
+            android:id="@+id/g1"
+            >
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_help2"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/ic_privacy"
+        android:title="Privacy" />
+    <item
+        android:id="@+id/nav_tos"
+        android:icon="@drawable/ic_conditions"
+        android:title="Terms Of Services" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Log Out" />
+
+        </group>
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_account"-->
+<!--        android:icon="@drawable/ic_account_circle"-->
+<!--        android:title="Account" />-->
+
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/ic_menu_camera"-->
+<!--            android:title="@string/menu_home" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/menu_gallery" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_slideshow" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_tools"-->
+<!--            android:icon="@drawable/ic_menu_manage"-->
+<!--            android:title="@string/menu_tools" />-->
+<!--    </group>-->
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_menu_send"-->
+<!--                android:title="@string/menu_send" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

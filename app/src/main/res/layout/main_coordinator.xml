@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="end">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_90">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:elevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <LinearLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_nav"
+            android:layout_below="@id/app_bar"
+            android:orientation="vertical" />
+        <!--        <io.anycopy.googleplusdemo.CustomViewPager-->
+        <!--            android:id="@+id/view_pager"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="ADD EVENT"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:padding="5dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:layout_above="@+id/floating_action_button"-->
+<!--            app:layout_anchor="@id/floating_action_button"-->
+<!--            app:layout_anchorGravity="top|end"/>-->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom_nav"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="top"
+            app:backgroundTint="@color/white"
+            app:fabSize="normal"
+            app:layout_anchor="@id/bottom_nav"
+            app:layout_anchorGravity="top|end"
+            app:srcCompat="@drawable/ic_add_grey"
+            app:useCompatPadding="true" />
+
+        <!--        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="top"-->
+        <!--            app:backgroundTint="@color/white"-->
+        <!--            app:fabSize="normal"-->
+        <!--            android:layout_margin="10dp"-->
+        <!--            app:icon="@drawable/ic_add_grey"-->
+        <!--            android:text="ADD EVENT"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_above="@id/bottom_nav"-->
+        <!--            app:layout_anchor="@id/bottom_nav"-->
+        <!--            app:layout_anchorGravity="top|end"-->
+        <!--            app:srcCompat="@drawable/ic_add_grey"-->
+        <!--            app:useCompatPadding="true" />-->
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="?android:attr/windowBackground"
+            app:backgroundTint="@color/grey_90"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:menu="@menu/bottom_nav_menu" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/grey_90"
+        android:fitsSystemWindows="true"
+        android:theme="@style/NavigationView"
+        app:headerLayout="@layout/nav_header_demo_drawer"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/activity_demo_drawer_drawer" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
